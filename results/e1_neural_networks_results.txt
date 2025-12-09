@@ -1,0 +1,42 @@
+1. CONFIGURACIÓN
+----------------------------------------
+  Modelo Word2Vec: glove-wiki-gigaword-100
+  Dimensión embeddings: 100
+  Longitud máx. secuencia: 200
+  Epochs: 10
+  Batch size: 32
+
+2. RESULTADOS FNN
+----------------------------------------
+  Accuracy:  0.4881
+  Precision: 0.4785
+  Recall:    0.4881
+  F1-Score:  0.4810
+
+              precision    recall  f1-score   support
+
+    negative       0.52      0.58      0.55      1499
+     neutral       0.38      0.31      0.34      1499
+    positive       0.53      0.58      0.55      1499
+
+    accuracy                           0.49      4497
+   macro avg       0.48      0.49      0.48      4497
+weighted avg       0.48      0.49      0.48      4497
+
+
+3. RESULTADOS RNN (Bi-LSTM)
+----------------------------------------
+  Accuracy:  0.5412
+  Precision: 0.5278
+  Recall:    0.5412
+  F1-Score:  0.5291
+
+              precision    recall  f1-score   support
+
+    negative       0.59      0.64      0.61      1499
+     neutral       0.43      0.31      0.36      1499
+    positive       0.57      0.68      0.62      1499
+
+    accuracy                           0.54      4497
+   macro avg       0.53      0.54      0.53      4497
+weighted avg       0.53      0.54      0.53      4497

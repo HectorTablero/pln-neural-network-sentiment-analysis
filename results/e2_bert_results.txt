@@ -1,0 +1,33 @@
+1. CONFIGURACIÓN
+----------------------------------------
+  Modelo base: bert-base-uncased
+  Max length: 128
+  Batch size: 64
+  Epochs: 3
+  Learning rate: 0.0002
+
+2. RESULTADOS EN TEST
+----------------------------------------
+  Accuracy:  0.6022
+  Precision: 0.6137
+  Recall:    0.6022
+  F1-Score:  0.6063
+
+3. REPORTE DE CLASIFICACIÓN
+----------------------------------------
+              precision    recall  f1-score   support
+
+    negative       0.69      0.64      0.66      1499
+     neutral       0.47      0.54      0.50      1499
+    positive       0.68      0.63      0.65      1499
+
+    accuracy                           0.60      4497
+   macro avg       0.61      0.60      0.61      4497
+weighted avg       0.61      0.60      0.61      4497
+
+4. MATRIZ DE CONFUSIÓN
+----------------------------------------
+              negative   neutral  positive
+negative           954       446        99
+neutral            345       813       341
+positive            81       477       941

@@ -1,0 +1,7 @@
+.vscode/
+data/
+
+*/__pycache__/
+*.pyc
+
+results/bert_model/
